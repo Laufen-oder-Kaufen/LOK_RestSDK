@@ -1,0 +1,16 @@
+title: user
+type: object
+x-tags:
+  - user
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  password:
+    type: string
+  token:
+    type: string
+required:
+  - name
+  - password
