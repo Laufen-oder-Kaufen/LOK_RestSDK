@@ -2,9 +2,16 @@ title: user
 type: object
 x-tags:
   - user
+x-examples:
+  user-1:
+    id: 1
+    name: max@example.de
+    password: string
+    token: string
 properties:
   id:
-    type: string
+    type: integer
+    readOnly: true
   name:
     type: string
   password:
